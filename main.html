@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="C:\Users\Enjoy\Desktop\Project\css\main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="stylesheet" href="C:\Users\Enjoy\Desktop\Project\css\main.css">
+        <link rel="stylesheet" href="C:\Users\Enjoy\Desktop\Project\css\hover-min.css">
+        <link rel="stylesheet" href="C:\Users\Enjoy\Desktop\Project\css\bootstrap.min.css">
+        <link rel="stylesheet" href="C:\Users\Enjoy\Desktop\Project\css\all.min.css">
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+    </head>
+    <body>
+      <div class="view" class="mask rgba-gradient algin-items-center" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="mask rgba-gradient algin-items-center">
+        <div class="text-center">
+          <a href="" class="btn btn-dark btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">LogIn/Register</a>
+        </div>
+        <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog cascading-modal dark"  role="document">
+            <!--Content-->
+            <div class="modal-content">     
+              <!--Modal cascading tabs-->
+              <div class="modal-c-tabs">      
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                      Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+                      Register</a>
+                  </li>
+                </ul>
+                <!-- Tab panels -->
+                <div class="tab-content">
+                  <!--Panel 7-->
+                  <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+                    <!--Body-->
+                    <div class="modal-body mb-1">
+                      <div class="md-form form-sm mb-5">
+                        <i class="fas fa-envelope prefix"></i>
+                        <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                        <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+                      </div>
+                      <div class="md-form form-sm mb-4">
+                        <i class="fas fa-lock prefix"></i>
+                        <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                        <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+                      </div>
+                      <div class="text-center mt-2">
+                        <button class="btn btn-info">Log in</i></button>
+                      </div>
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                      <div class="options text-center text-md-center mt-1">
+                        <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                        <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+                      </div>
+                      <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                    </div>      
+                  </div>
+                  <!--/.Panel 7-->     
+                  <!--Panel 8-->
+                  <div class="tab-pane fade" id="panel8" role="tabpanel">
+                    <!--Body-->
+                    <div class="modal-body">
+                      <div class="md-form form-sm mb-5">
+                        <i class="fas fa-envelope prefix"></i>
+                        <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                        <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+                      </div>
+        
+                      <div class="md-form form-sm mb-5">
+                        <i class="fas fa-lock prefix"></i>
+                        <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                        <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+                      </div>
+        
+                      <div class="md-form form-sm mb-4">
+                        <i class="fas fa-lock prefix"></i>
+                        <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                        <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+                      </div>
+                      <div class="text-center form-sm mt-2">
+                        <button class="btn btn-info">Sign up</button>
+                      </div>
+        
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                      <div class="options text-center">
+                        <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+                      </div>
+                      <button type="button" class="btn btn-outline-info waves-effect ml-5 center" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  <!--/.Panel 8-->
+                </div>
+        
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <h1 class="h1-responsive font-weight-bold mt-sm-5 white-text">Welcome to FCDS ALex</h1>
+                <hr class="hr-light">
+                <h6 class="mb-4 white-text">Fucalty of computers and data science is devoted to excellence in teaching,
+                  learning and research,and to developing leaders in many careers
+                </h6>
+                <hr class="hr-light">
+                <h6>The data science field is incredibly broad, 
+                  encompassing everything from cleaning data to deploying predictive models. 
+                  However, it’s rare for any single data scientist to be working across the spectrum day to day. 
+                  Data scientists usually focus on a few areas, and are complemented by a team of other scientists and analysts.</h6>
+              </div>
+              <div class="col-md-7 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                <img src="C:\Users\Enjoy\Desktop\Project\images\logo.png" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        
+<!-- Wrapper -->
+<div class="wrapper d-flex align-items-stretch">
+  <!-- Sidebar -->
+  <nav class="sidebar">
+      <!-- close sidebar menu -->
+      <div class="dismiss">
+          <i class="fas fa-arrow-left"></i>
+      </div>
+      <div class="logo">
+          <h3 style="color:#3baeca; font-family: fantasy;"><a href="main.html">Bootstrap 4 Template with Sidebar Menu</a>FCDS ALex</h3>
+      </div>
+      <ul class="list-unstyled menu-elements">
+          <li class="active">
+              <a class="scroll-link" href="main.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+              <a class="scroll-link" href="#section-1"><i class="fas fa-cog"></i> What we do</a>
+          </li>
+          <li>
+              <a class="scroll-link" href="#section-2"><i class="fas fa-user"></i> About us</a>
+          </li>
+          <li>
+              <a class="scroll-link" href="#section-6"><i class="fas fa-envelope"></i> Contact us</a>
+          </li>
+          
+          <li>
+              <a href="#otherSections" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="otherSections">
+                  <i class="fas fa-sync"></i> More
+              </a>
+              <ul class="collapse list-unstyled" id="otherSections">
+                  <li>
+                      <a class="scroll-link" href="#section-12">Results</a>
+                  </li>
+                  <li>
+                      <a class="scroll-link" href="#section-3">Our projects</a>
+                  </li>
+                  <li>
+                    <a class="scroll-link" href="#section-7">Courses</a>
+                  </li>
+                  <li>
+                    <a class="scroll-link" href="C:\Users\Enjoy\Desktop\Project\html\level1.html">Level One</a>
+                  </li>
+                  <li>
+                    <a class="scroll-link" href="C:\Users\Enjoy\Desktop\Project\html\level2.html">Level two</a>
+                  </li>
+                  <li>
+                    <a class="scroll-link" href="C:\Users\Enjoy\Desktop\Project\html\level3.html">Level three</a>
+                  </li>
+                  <li>
+                    <a class="scroll-link" href="C:\Users\Enjoy\Desktop\Project\html\level4.html">Level four</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+      <div class="mb-5 px-4">
+        <h3 class="h6 mb-3">Subscribe </h3>
+        <form action="#" class="subscribe-form">
+          <div class="form-group d-flex">
+            <div class="icon"><span class="icon-paper-plane"></span></div>
+            <input type="text" class="form-control" placeholder="Enter Email Address">
+          </div>
+        </form>
+  </div>
+  </nav>
+  <!-- End sidebar -->
+  <!-- Dark overlay -->
+  <div class="overlay"></div>
+  <!-- Content -->
+  <div class="content">
+      <!-- open sidebar menu -->
+      <a class="btn btn-primary btn-customized open-menu" href="#" role="button">
+          <i class="fas fa-align-left"></i> <span>Menu</span>
+      </a>
+      <!-- ... -->
+      <!-- here is the page's content (not shown here) -->
+      <!-- ... -->
+ </div>
+</div>
+<!-- News jumbotron -->
+<div class="jumbotron text-center p-4 mask rgba-gradient algin-items-center">
+
+  <!-- Grid row -->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-4 offset-md-1 mx-3 my-3">
+      <!-- Featured image -->
+      <div class="view">
+        <img src="C:\Users\Enjoy\Desktop\Project\images\photo-1498050108023-c5249f4df085.jfif" class="img-fluid" alt="Sample image for first version of blog listing">
+      </div>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-left ml-3 mt-3">
+
+      <!-- Excerpt -->
+      <a href="#!" class="text-dark">
+        <h6 class="h6 pb-1 text-dark" id="section-1"><i class="fas fa-desktop pr-1"></i>what we do ..</h6>
+      </a>
+
+      <h4 class="h4 mb-4">This is title of the news</h4>
+
+      <p class="font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
+        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+      <p class="font-weight-normal">by <a><strong>__</strong></a>
+        , 19/08/2020</p>
+      <a class="fa-lg p-2 m-2 li-ic"><i class="fab fa-linkedin-in grey-text"></i></a>
+      <a class="fa-lg p-2 m-2 tw-ic"><i class="fab fa-twitter grey-text"></i></a>
+      <a class="fa-lg p-2 m-2 fb-ic"><i class="fab fa-facebook-f grey-text"></i></a>
+    </div>
+    <!-- Grid column -->
+  </div>
+  <!-- Grid row -->
+</div>
+<!-- News jumbotron -->
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <!-- Card -->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view">
+        <img class="card-img-top" src="C:\Users\Enjoy\Desktop\Project\images\data science.jpeg"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">General Department</h4>
+        <!--Text-->
+        <p class="card-text">The Data Engineer will be responsible for employing machine learning techniques to create and sustain structures that allow for the analysis of data, while remaining familiar with dominant programming and deployment strategies in the field.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      </div>
+
+    </div>
+    <!-- Card -->
+  </div>
+  <div class="col mb-4">
+    <!-- Card -->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view">
+        <img class="card-img-top" src="C:\Users\Enjoy\Desktop\Project\images\business analytics.jpg"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Business Analytics (BA)</h4>
+        <!--Text-->
+        <p class="card-text">The word “business analytics” perfectly summarizes every type of job we categorize under business analytics. “Business” emphasizes the importance of business understanding, and “Analytics” refers to the importance of statistics, computer engineering, and operation research in this type of role</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      </div>
+
+    </div>
+    <!-- Card -->
+  </div>
+  <div class="col mb-4">
+    <!-- Card -->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view">
+        <img class="card-img-top" src="C:\Users\Enjoy\Desktop\Project\images\Healthcare analytics.jpg"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Healthcare Analytics</h4>
+        <!--Text-->
+        <p class="card-text">Healthcare Analytics is harnessing the power of Big Data and Data Science to provide solutions in the healthcare segment. </p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      </div>
+
+    </div>
+    <!-- Card -->
+  </div>
+  <div class="col mb-4">
+    <!-- Card -->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view">
+        <img class="card-img-top" src="C:\Users\Enjoy\Desktop\Project\images\media analytics.jpg"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Media Analytics</h4>
+        <!--Text-->
+        <p class="card-text">Media analysts are sometimes referred to as media critics. They review and analyze current print and broadcast media. They report on current trends in the media's overall reporting in terms of fairness, accuracy, content and the impact they have on people and society. The media analyst position is essential in determining the integrity of the mass communications field. </p>
+      </div>
+
+    </div>
+    <!-- Card -->
+  </div>
+  <div class="col mb-4">
+    <!-- Card -->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view">
+        <img class="card-img-top" src="C:\Users\Enjoy\Desktop\Project\images\cyber.jpg"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Cyber Security</h4>
+        <!--Text-->
+        <p class="card-text">Cyber security professionals, or information security analysts, have a wide range of responsibilities, but the crux of their job is to protect online data form being compromised. As more of our personal information is stored online, the more important it becomes to step up security.
+
+          Cyber security careers are complex and many roles can be found with banks, retailers and government organizations.</p>
+      </div>
+
+    </div>
+    <!-- Card -->
+  </div> <div class="col mb-4">
+    <!-- Card -->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view">
+        <img class="card-img-top" src="C:\Users\Enjoy\Desktop\Project\images\intelligent systems.jpeg"
+          alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Intelligent Systems</h4>
+        <!--Text-->
+        <p class="card-text">Electrical engineers design, develop, test, and supervise the manufacturing of electrical equipment, such as electric motors, radar and navigation systems, communications systems, or power generation equipment. Electrical engineers also design the electrical systems of automobiles.</p>
+    </div>
+    <!-- Card -->
+  </div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small pt-4 dark">
+  <!-- Footer Elements -->
+  <div class="container">
+    <!--Grid row-->
+    <div class="row d-flex justify-content-center">
+      <!--Grid column-->
+      <div class="col-md-6">
+        <!-- Video -->
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/em8nBc-zRaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Footer Elements -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-light py-3">© 2020 Copyright:
+    <a href="main.html">FCDS Alex</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- Footer -->
+
+
+</div>
+<!--View-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="C:\Users\Enjoy\Desktop\Project\js\bootstrap.min.js"></script>
+        <script src="C:\Users\Enjoy\Desktop\Project\js\jquery-3.4.1.min.js"></script>
+        <script src="C:\Users\Enjoy\Desktop\Project\js\popper.min.js"></script>
+        <script src="C:\Users\Enjoy\Desktop\Project\js\script.js"></script>
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+       
+    </body>
+</html>
